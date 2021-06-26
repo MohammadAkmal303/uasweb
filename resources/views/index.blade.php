@@ -44,13 +44,13 @@
             <div class="container" id="anggota">
               <div class="row align-items-center">
                 <div class="col">
-                  <img src="{{asset('asset/images/akmal.jpg')}}" alt="" width="100">
+                  <img src="asset/images/akmal.jpg" alt="" width="100">
                 </div>
                 <div class="col">
-                  <img src="{{asset('asset/images/farrel.jpg')}}" alt="" width="100">
+                  <img src="asset/images/farrel.jpg" alt="" width="100">
                 </div>
                 <div class="col">
-                  <img src="{{asset('asset/images/eva.jpg')}}" alt="" width="100">
+                  <img src="asset/images/eva.jpg" alt="" width="100">
                 </div>
               </div>
               <div class="row align-items-center">
