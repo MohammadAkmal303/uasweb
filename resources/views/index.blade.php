@@ -41,6 +41,30 @@
                 {{$item->description}}
             </p>
             @endforeach
+            <div class="container" id="anggota">
+              <div class="row align-items-center">
+                <div class="col">
+                  <img src="{{asset('asset/images/akmal.jpg')}}" alt="" width="100">
+                </div>
+                <div class="col">
+                  <img src="{{asset('asset/images/farrel.jpg')}}" alt="" width="100">
+                </div>
+                <div class="col">
+                  <img src="{{asset('asset/images/eva.jpg')}}" alt="" width="100">
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col">
+                  Mohammad Akmal Maulana 2019-303 (Web F)
+                </div>
+                <div class="col">
+                  Moch Farrel 2019-345 (Web F)
+                </div>
+                <div class="col">
+                  Eva Tiara Khoirina 2019-347 (Web F)
+                </div>
+              </div>
+            </div>
         </div>
       </div>
         <h1>Menu - Menu</h1>
