@@ -31,7 +31,7 @@
                         <div class="card-footer">
                             <div class="d-flex justify-content-end">
                                 <a href="{{url('admin/profilecompany')}}" class="m-1 btn btn-outlinedanger">Back</a>
-                                <button type="submit" class="m-1 btn btn-success">Save</button>
+                                <button type="submit" class="m-1 btn btn-success">Update</button>
                             </div>
                         </div>
                     </form>
