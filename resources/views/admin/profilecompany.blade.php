@@ -1,5 +1,5 @@
 @extends('layouts.adminmaster')
-@section('title', 'Dya Catering')
+@section('title', 'Profile Dya Catering')
 
 
 @section('content')
@@ -16,7 +16,7 @@
                                 <h4 class="card-title">Dya Catering</h4>
                                 @foreach ($profile as $item)
                                 <p class="card-text">{{$item->description}}</p>
-                                <a href="/admin/{{$item -> id}}/updatecompany" class="btn btn-success">Update</a>
+                                <a href="/admin/{{$item -> id}}/updatecompany" class="btn btn-success">Change</a>
                                 @endforeach
                         </div>
                     </div>
