@@ -36,6 +36,7 @@
                                                 <input class="form-control" id="inputPassword" type="password" name="password"/>
                                             </div>
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+                                                <button class="btn btn-danger" type="reset">Clear</button>
                                                 <button class="btn btn-primary" type="submit">Login</button>
                                             </div>
                                         </form>
