@@ -67,6 +67,7 @@
             </div>
         </div>
       </div>
+      <!-- Daftar Menu -->
         <h1>Menu - Menu</h1>
         @if ($menu -> isEmpty())
         <div class="container mb-3">
@@ -94,7 +95,6 @@
             </div>
         </div>
         @endif
-      <!-- Daftar Menu -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
       <script src="js/app.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
