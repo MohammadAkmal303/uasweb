@@ -28,7 +28,7 @@
                                                 <div class="form-group">
                                                     <label for="thumbnail">Ganti Thumbnail</label>
                                                     <input value="{{$menu->thumbnail}}" type="url" name="thumbnail" class="form-control @error('name')
-                                                    is-invalid @enderror" placeholder="Masukkan Link Tambar" >
+                                                    is-invalid @enderror" placeholder="Masukkan Link Gambar" >
                                                     <small class="text-danger">@error('thumbnail') {{$message}} @enderror</small>
                                                 </div>
                                             </div>
@@ -44,7 +44,7 @@
                                     <!-- /.row -->
                                     <div class="card-footer">
                                         <div class="d-flex justify-content-end">
-                                            <a href="" class="m-1 btn btn-outlinedanger">Back</a>
+                                            <a href="" class="m-1 btn btn-outlinedanger">Cancel</a>
                                             <button type="submit" class="m-1 btn btn-success">Update</button>
                                         </div>
                                     </div>
