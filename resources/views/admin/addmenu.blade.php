@@ -1,5 +1,5 @@
 @extends('layouts.adminmaster')
-@section('title', 'Add Menu')
+@section('title', 'Tambahkan Menu')
 
 @section('content')
                 <main>
@@ -8,7 +8,7 @@
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.html">Admin</a></li>
                             <li class="breadcrumb-item active">Manage Menu</li>
-                            <li class="breadcrumb-item active">Add Menu</li>
+                            <li class="breadcrumb-item active">Tambahkan Menu</li>
                         </ol>
                         <div class="card mb-4">
                             <div class="card-body">
@@ -28,7 +28,7 @@
                                                 <div class="form-group">
                                                     <label for="thumbnail">Thumbnail</label>
                                                     <input type="url" name="thumbnail" class="form-control @error('name')
-                                                    is-invalid @enderror" placeholder="Masukkan Link Tambar" >
+                                                    is-invalid @enderror" placeholder="Masukkan Link Gambar" >
                                                     <small class="text-danger">@error('thumbnail') {{$message}} @enderror</small>
                                                 </div>
                                             </div>

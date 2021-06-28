@@ -73,7 +73,7 @@
         <div class="container mb-3">
           <div class="card">
             <div class="card-body text-center">
-              Sorry No Manu Avaliable
+              Sorry No Menu Avaliable
             </div>
           </div>
         </div>
